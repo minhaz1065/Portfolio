@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+#loginBox {
+  margin: 50px auto;
+  width: 300px;
+  height: 400px;
+  background: red;
+  border-radius: 5px;
+}
+
+.log {
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 120px;
+  height: 32px;
+  background: rgb(35, 35, 35);
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(35, 35, 35);
+}
+
+
